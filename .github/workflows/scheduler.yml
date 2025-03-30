@@ -1,0 +1,63 @@
+---
+name: Schedule
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/scheduler.yml
+      - config/**
+      - podsync/scheduler.py
+      - podsync/refresh-opml.py
+      - environment.yml
+  schedule:
+    - cron: 17 * * * *
+
+permissions: write-all
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: gautamkrishnar/keepalive-workflow@v2
+
+      - uses: mamba-org/setup-micromamba@main
+        name: Setup micromamba environment
+        with:
+          micromamba-version: latest
+          environment-file: environment.yml
+          environment-name: ci
+          cache-environment: true
+          cache-environment-key: ${{ hashFiles('**/environment.yml') }}
+          cache-downloads: false
+          log-level: info
+
+      - name: Refresh OPML
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: micromamba-shell {0}
+        run: |-
+          gh release download audio -D audio --clobber --pattern podsync.opml
+          gh release download video -D video --clobber --pattern podsync.opml
+          python podsync/refresh-opml.py
+
+      - name: Sync
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEFAULT_TG_TARGET: ${{ secrets.DEFAULT_TG_TARGET }}
+          VIDEOGRAM_TG_SESSION_STRING: ${{ secrets.VIDEOGRAM_TG_SESSION_STRING }}
+          VIDEOGRAM_YT_LANG: ${{ secrets.VIDEOGRAM_YT_LANG }}
+          RSSHUB_URL: ${{ secrets.RSSHUB_URL }}
+        shell: micromamba-shell {0}
+        run: |-
+          gh release download metadata -D metadata --clobber
+          python podsync/scheduler.py --platform youtube --config config/youtube.json
+          python podsync/scheduler.py --platform bilibili --config config/bilibili.json
