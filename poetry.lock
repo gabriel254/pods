@@ -1017,7 +1017,7 @@ yt-dlp = ">=2024.12.06"
 
 [package.source]
 type = "url"
-url = "https://github.com/hfpods4085/pods/releases/download/videogram/videogram-0.4.8.tar.gz"
+url = "https://github.com/gabriel254/pods/releases/download/videogram/videogram-0.4.8.tar.gz"
 
 [[package]]
 name = "wcwidth"
@@ -1079,4 +1079,4 @@ test = ["pytest (>=8.1,<9.0)", "pytest-rerunfailures (>=14.0,<15.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "3558339a41054e167e6c581994926b4f6b797e95cb14897ccc34349aab8b3cac"
+content-hash = "7698ed51969a26e6ffa0299906349a2861004e6e0decd92eb64650cbc37c4488"

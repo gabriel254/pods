@@ -59,19 +59,19 @@ jobs:
 
       - name: Download releases
         env:
-          REPOSITORY: hfpods4085/pods
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          REPOSITORY: gabriel254/pods
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |-
-          gh release download metadata -D metadata --clobber --pattern ${{inputs.name}}.json -R hfpods4085/pods || true
-          gh release download audio -D audio --clobber --pattern ${{inputs.name}}.xml -R hfpods4085/pods || true
-          gh release download video -D video --clobber --pattern ${{inputs.name}}.xml -R hfpods4085/pods || true
+          gh release download metadata -D metadata --clobber --pattern ${{inputs.name}}.json || true
+          gh release download audio -D audio --clobber --pattern ${{inputs.name}}.xml || true
+          gh release download video -D video --clobber --pattern ${{inputs.name}}.xml || true
 
       - name: Sync YouTube
         if: ${{ inputs.platform == 'youtube' }}
         timeout-minutes: 120
         env:
-          REPOSITORY: hfpods4085/pods
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          REPOSITORY: gabriel254/pods
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_TG_TARGET: ${{ secrets.DEFAULT_TG_TARGET }}
           VIDEOGRAM_TG_SESSION_STRING: ${{ secrets.VIDEOGRAM_TG_SESSION_STRING }}
           VIDEOGRAM_YT_LANG: zh-CN
@@ -96,8 +96,8 @@ jobs:
         if: ${{ inputs.platform == 'bilibili' }}
         timeout-minutes: 120
         env:
-          REPOSITORY: hfpods4085/pods
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          REPOSITORY: gabriel254/pods
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_TG_TARGET: ${{ secrets.DEFAULT_TG_TARGET }}
           VIDEOGRAM_TG_SESSION_STRING: ${{ secrets.VIDEOGRAM_TG_SESSION_STRING }}
           VIDEOGRAM_YT_LANG: zh-CN
