@@ -1,7 +1,7 @@
 [
   {
     "name": "back2049",
-    "cover": "https://i0.hdslb.com/bfs/face/2f1c092ae710430cdd05f43a4d7f011b394bd15d.jpg",
+    "cover": "https://101.34.68.162/pods/cover/back2049.jpg",
     "uid": "58617276",
     "skip_video": false,
     "skip_audio": true,
@@ -11,7 +11,7 @@
   },
   {
     "name": "bidaothu",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_modFj7v6t_LJN1KlcxeinnngXHlx0G9WgFEJGexfzx=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/bidaothu.jpg",
     "uid": "254463269",
     "skip_video": false,
     "skip_audio": true,
@@ -21,7 +21,7 @@
   },
   {
     "name": "daijianye",
-    "cover": "https://i0.hdslb.com/bfs/face/f7673d2846475c9ccf68d5f60ac38a5a48ce34a8.jpg",
+    "cover": "https://101.34.68.162/pods/cover/daijianye.jpg",
     "uid": "532741557",
     "skip_video": false,
     "skip_audio": true,
@@ -31,7 +31,7 @@
   },
   {
     "name": "dawenti",
-    "cover": "https://yt3.ggpht.com/UvVniDpX60gZL9rwo9Jq-XLARfS-fZ3AhsHAqhMIT4Gx3ByNsLfcWsH5_pZzRWoIqMsSfxBTuiA=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/dawenti.jpg",
     "uid": "1871365234",
     "skip_video": false,
     "skip_audio": true,
@@ -41,7 +41,7 @@
   },
   {
     "name": "fenggewangmingtianya",
-    "cover": "https://i0.hdslb.com/bfs/face/ae439693d6fd79a55b1b5f935ed6474ae6fba35b.jpg",
+    "cover": "https://101.34.68.162/pods/cover/fenggewangmingtianya.jpg",
     "uid": "35847683",
     "skip_video": false,
     "skip_audio": true,
@@ -51,7 +51,7 @@
   },
   {
     "name": "gengtongxuejianggushi",
-    "cover": "https://i0.hdslb.com/bfs/face/8cfab8f2f7b04768d878d7ffa7ba51c562248e02.jpg",
+    "cover": "https://101.34.68.162/pods/cover/gengtongxuejianggushi.jpg",
     "uid": "1732848825",
     "skip_video": false,
     "skip_audio": true,
@@ -60,18 +60,8 @@
     "title": "耿同学讲故事"
   },
   {
-    "name": "guantouge",
-    "cover": "https://i0.hdslb.com/bfs/face/56da33daf6f0e80e5949ab3a04dde9ec53d3bc65.jpg",
-    "uid": "288008804",
-    "skip_video": false,
-    "skip_audio": true,
-    "skip_telegram": true,
-    "tg_target": null,
-    "title": "罐头哥"
-  },
-  {
     "name": "hejiaoshou",
-    "cover": "https://i0.hdslb.com/bfs/face/6bb562eef01d273c17d4d35edabbe7af236fcfc5.jpg",
+    "cover": "https://101.34.68.162/pods/cover/hejiaoshou.jpg",
     "uid": "1010101551",
     "skip_video": false,
     "skip_audio": true,
@@ -81,7 +71,7 @@
   },
   {
     "name": "huchenfeng",
-    "cover": "https://i0.hdslb.com/bfs/face/1cc4312e7e33dd640c2bc84058d87ec34a2a79a3.jpg",
+    "cover": "https://101.34.68.162/pods/cover/huchenfeng.jpg",
     "uid": "49869761",
     "skip_video": false,
     "skip_audio": true,
@@ -91,7 +81,7 @@
   },
   {
     "name": "geekerwan",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_nrEI7QRBYhcplYKXDUPYD9fwxzvltgdTyH7Znox41goPY=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/geekerwan.jpg",
     "uid": "25876945",
     "skip_video": false,
     "skip_audio": true,
@@ -101,7 +91,7 @@
   },
   {
     "name": "laojiang",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_l9rEdVwmf1LohIKnO9ft_rQIKORgAsLtRUxW-4adHgLw=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/laojiang.jpg",
     "uid": "119801456",
     "skip_video": false,
     "skip_audio": true,
@@ -111,7 +101,7 @@
   },
   {
     "name": "laotouyangzhuji",
-    "cover": "https://i1.hdslb.com/bfs/face/8207394e91568a754e498a440a9981013af8cee5.jpg",
+    "cover": "https://101.34.68.162/pods/cover/laotouyangzhuji.jpg",
     "uid": "1137066730",
     "skip_video": false,
     "skip_audio": true,
@@ -121,7 +111,7 @@
   },
   {
     "name": "lawerpapa",
-    "cover": "https://i1.hdslb.com/bfs/face/f6aaf8a18744afcc567ba874ac3a9cf7f6fab403.jpg",
+    "cover": "https://101.34.68.162/pods/cover/lawerpapa.jpg",
     "uid": "10216010",
     "skip_video": false,
     "skip_audio": true,
@@ -131,7 +121,7 @@
   },
   {
     "name": "luoxiang",
-    "cover": "https://i1.hdslb.com/bfs/face/4e5d0a51273fe3f8fabc700b6a71bb8a38c9e21e.jpg",
+    "cover": "https://101.34.68.162/pods/cover/luoxiang.jpg",
     "uid": "517327498",
     "skip_video": false,
     "skip_audio": true,
@@ -141,7 +131,7 @@
   },
   {
     "name": "mediastorm",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_nDMVm9nAIkb_K6CweAyV3RzhOfDUGKCuMYHdCIsyp_wMQ=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/mediastorm.jpg",
     "uid": "946974",
     "skip_video": false,
     "skip_audio": true,
@@ -151,7 +141,7 @@
   },
   {
     "name": "mianyangliaoli",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_m8QmbUcl3Np7JvLzrAZRkir5cbp7RVOnq15T7-odckPww=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/mianyangliaoli.jpg",
     "uid": "18202105",
     "skip_video": false,
     "skip_audio": true,
@@ -160,18 +150,8 @@
     "title": "绵羊料理"
   },
   {
-    "name": "mommytalk",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_lkDlyI6_T431VuOHSxKpWHU8gRowRX2jJTSWz8qgXLZg=s800-c-k-c0x00ffffff-no-rj",
-    "uid": "223146252",
-    "skip_video": false,
-    "skip_audio": true,
-    "skip_telegram": true,
-    "tg_target": null,
-    "title": "妈咪说MommyTalk"
-  },
-  {
     "name": "shenyifei",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_nH_uIqFoJ5uwadvs_dAV4-G9pRMnsqeKhcQIeny8tJDQ=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/shenyifei.jpg",
     "uid": "349092963",
     "skip_video": false,
     "skip_audio": true,
@@ -180,18 +160,8 @@
     "title": "沈奕斐"
   },
   {
-    "name": "shiyin",
-    "cover": "https://yt3.ggpht.com/Mww-UybqGpJMpKO4q7knT7cheSWFOSlGB0_3EUzhPNqU0ze_l397IeArwtXeLMqpvvOXueSAOw=s800-c-k-c0x00ffffff-no-rj",
-    "uid": "257975429",
-    "skip_video": false,
-    "skip_audio": true,
-    "skip_telegram": true,
-    "tg_target": null,
-    "title": "Shiyin Official"
-  },
-  {
     "name": "siliconvalley101",
-    "cover": "https://yt3.ggpht.com/eqqE8PI2zgg8BiHjXd3TQ8MGiCx83414-1cvqS7oh3x7mj22h-CM8ZUXAAQ_2Rh4mlghp7xyp6U=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/siliconvalley101.jpg",
     "uid": "508452265",
     "skip_video": false,
     "skip_audio": true,
@@ -200,18 +170,8 @@
     "title": "硅谷101"
   },
   {
-    "name": "tubage",
-    "cover": "https://yt3.ggpht.com/RZGlKBx7Ollt5TfD7d4QJBQ3TxX0of0QqUKzhkqypquB_folfctwOuLJP0CgksRLcrVxXpGmi68=s800-c-k-c0x00ffffff-no-rj",
-    "uid": "7788379",
-    "skip_video": false,
-    "skip_audio": true,
-    "skip_telegram": true,
-    "tg_target": null,
-    "title": "医学博士兔叭咯"
-  },
-  {
     "name": "wsfandxmm",
-    "cover": "https://i0.hdslb.com/bfs/face/024a29e8cf627ac388faf9152f42e940b7b01cc6.jpg",
+    "cover": "https://101.34.68.162/pods/cover/wsfandxmm.jpg",
     "uid": "452606628",
     "skip_video": false,
     "skip_audio": true,
@@ -221,7 +181,7 @@
   },
   {
     "name": "xiaolinshuo",
-    "cover": "https://yt3.ggpht.com/xnkkc-bF9QVbU-iqkzZpTDYkteKCMWSVoCFXx9CiiRUrwkzNd_1Gk_iPR0YU-Y9HbIChIOOenA=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/xiaolinshuo.jpg",
     "uid": "520819684",
     "skip_video": false,
     "skip_audio": true,
@@ -231,7 +191,7 @@
   },
   {
     "name": "xueyuanpaiAcademia",
-    "cover": "https://i2.hdslb.com/bfs/face/1d43d2cf347e427042452e6fd1c500ebbedfc028.jpg",
+    "cover": "https://101.34.68.162/pods/cover/xueyuanpaiAcademia.jpg",
     "uid": "96639395",
     "skip_video": false,
     "skip_audio": true,
@@ -241,7 +201,7 @@
   },
   {
     "name": "yingjianchatan",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_kS4Q6FSD94UXlwzK5MoBFKJgK9uqG1dQNixKAnWYrrqw=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/yingjianchatan.jpg",
     "uid": "14871346",
     "skip_video": false,
     "skip_audio": true,
@@ -251,7 +211,7 @@
   },
   {
     "name": "yixi",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_mQLoig2s9mol5eM__c8uivvvykDUCeA9oq3w2AwygRwQ=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/yixi.jpg",
     "uid": "26079128",
     "skip_video": false,
     "skip_audio": true,
@@ -261,7 +221,7 @@
   },
   {
     "name": "yooupi",
-    "cover": "https://yt3.ggpht.com/ytc/AIdro_kHsHEwXdfiovvTN9EZVy1JsndcMnc0rg9iKULzfsSvlw=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/yooupi.jpg",
     "uid": "452412746",
     "skip_video": false,
     "skip_audio": true,
@@ -271,7 +231,7 @@
   },
   {
     "name": "zhengqihuoji",
-    "cover": "https://yt3.ggpht.com/5JarJuBXfCOkqHhZQpMFyKs9MRtkjN5-8VQPPC_TWZ1Wsd6ckBb11C1BEu4jWrpSzeifgRVGnA=s800-c-k-c0x00ffffff-no-rj",
+    "cover": "https://101.34.68.162/pods/cover/zhengqihuoji.jpg",
     "uid": "39180492",
     "skip_video": false,
     "skip_audio": true,
