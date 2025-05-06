@@ -55,6 +55,17 @@
     "title": "崔永元"
   },
   {
+    "name": "dlczxxs",
+    "cover": "https://101.34.68.162/pods/cover/dlczxxs.jpg",
+    "yt_channel": "UCv8djBlOdCZWZ-7Nal-3pJQ",
+    "skip_video": false,
+    "skip_audio": true,
+    "skip_shorts": true,
+    "skip_telegram": false,
+    "tg_target": null,
+    "title": "大脸撑在小胸上"
+  },
+  {
     "name": "eryegushi",
     "cover": "https://101.34.68.162/pods/cover/eryegushi.jpg",
     "yt_channel": "UCapPWG_ppEuYvelriReTcOA",
@@ -64,6 +75,28 @@
     "skip_telegram": false,
     "tg_target": null,
     "title": "二爷故事"
+  },
+  {
+    "name": "guojiqiju",
+    "cover": "https://101.34.68.162/pods/cover/guojiqiju.jpg",
+    "yt_channel": "UCsTKlnf2bQMC0yXyp71AWsA",
+    "skip_video": false,
+    "skip_audio": true,
+    "skip_shorts": true,
+    "skip_telegram": false,
+    "tg_target": null,
+    "title": "国际棋局"
+  },
+  {
+    "name": "kuakeshuo",
+    "cover": "https://101.34.68.162/pods/cover/kuakeshuo.jpg",
+    "yt_channel": "UCJj75G0tMMiUpG8h3-Yg0WQ",
+    "skip_video": false,
+    "skip_audio": true,
+    "skip_shorts": true,
+    "skip_telegram": false,
+    "tg_target": null,
+    "title": "夸克说"
   },
   {
     "name": "lansontravel",
@@ -130,6 +163,17 @@
     "skip_telegram": false,
     "tg_target": null,
     "title": "多伦多方脸"
+  },
+  {
+    "name": "xiaoditai",
+    "cover": "https://101.34.68.162/pods/cover/xiaoditai.jpg",
+    "yt_channel": "UCMlSfmeXjgTt-NDSmkrpy0A",
+    "skip_video": false,
+    "skip_audio": true,
+    "skip_shorts": true,
+    "skip_telegram": false,
+    "tg_target": null,
+    "title": "小敌台"
   },
   {
     "name": "yuansir",

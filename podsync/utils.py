@@ -25,7 +25,7 @@ def load_xml(path: str | Path, template: str = "rss") -> dict:
 
 def save_xml(header: dict, items: list[dict], save_path: str | Path):
     header["rss"]["channel"]["item"] = items
-    xml_str = xmltodict.unparse(header, pretty=True, full_document=True)
+    xml_str = xmltodict.unparse(header, pretty=True, full_document=False)
     save_path = Path(save_path)
     save_path.parent.mkdir(parents=True, exist_ok=True)
     with save_path.open("w") as f:

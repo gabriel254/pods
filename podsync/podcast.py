@@ -43,9 +43,10 @@ def generate_pod_header(feed_info: dict, config: dict, pod_type: str) -> dict:
         "rss": {
             "@version": "2.0",
             "@xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
+            "@xmlns:atom": "http://www.w3.org/2005/Atom",
+            "@xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "@xmlns:podcast": "https://podcastindex.org/namespace/1.0",
-            "xmlns:atom": "http://www.w3.org/2005/Atom",
-            "xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+            "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
             "channel": {
                 # Required tags
                 "atom:link": {
@@ -58,7 +59,7 @@ def generate_pod_header(feed_info: dict, config: dict, pod_type: str) -> dict:
                 "itunes:image": {"@href": config["cover"]},
                 "language": "en-us",
                 "itunes:category": {"@text": "TV & Film"},
-                "itunes:explicit": "false",
+                "itunes:explicit": "no",
                 # Recommended tags
                 "podcast:locked": "yes",
                 "podcast:guid": generate_podcast_uuid(feed_url),
@@ -123,7 +124,7 @@ def generate_pod_item(
 
     return {
         # Required tags
-        "title": f"【{filepath.stat().st_size/1024/1024:.0f}MB】{feed_entry['title']}",
+        "title": f"【{filepath.stat().st_size / 1024 / 1024:.0f}MB】{feed_entry['title']}",
         "enclosure": enclosure,
         "guid": feed_entry["link"],
         # Recommended tags
