@@ -58,16 +58,14 @@ class Bilibili(PodSync):
             ytdlp_extract_info(entry["link"], use_cookie=False, playlist=False, process=False)[0]
         except ExtractorError as e:
             logger.error(f"ExtractorError: {e.msg}")
-            raise
+            return res
         except DownloadError as e:
             logger.error(f"DownloadError: {e.msg}")
             if "HTTPError 404" in str(e.msg):
                 logger.warning(f"Skip 404 not found video: {entry['title']}")
-                return res
             if "deleted or geo-restricted" in str(e.msg):
                 logger.warning(f"Skip deleted or geo-restricted video: {entry['title']}")
-                return res
-            raise
+            return res
         except Exception as e:  # noqa: BLE001
             logger.error(e)
             return res
