@@ -88,17 +88,6 @@
     "title": "国际棋局"
   },
   {
-    "name": "kuakeshuo",
-    "cover": "https://101.34.68.162/pods/cover/kuakeshuo.jpg",
-    "yt_channel": "UCJj75G0tMMiUpG8h3-Yg0WQ",
-    "skip_video": false,
-    "skip_audio": true,
-    "skip_shorts": true,
-    "skip_telegram": false,
-    "tg_target": null,
-    "title": "夸克说"
-  },
-  {
     "name": "lansontravel",
     "cover": "https://101.34.68.162/pods/cover/lansontravel.jpg",
     "yt_channel": "UCuPEBfHpW4hILoGuKfYKTnw",

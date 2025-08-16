@@ -56,7 +56,7 @@ jobs:
         run: |-
           gh release download metadata -D metadata --clobber
           python podsync/scheduler.py --platform youtube --config config/youtube.json
-          python podsync/scheduler.py --platform bilibili --config config/bilibili.json
+          # python podsync/scheduler.py --platform bilibili --config config/bilibili.json
 
   # https://github.com/liskin/gh-workflow-keepalive
   keepalive:
